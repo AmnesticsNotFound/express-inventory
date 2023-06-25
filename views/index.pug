@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #[em Inventory].
+
+  h1 Dynamic content
+
+  p The Inventory has the following record counts:
+
+  ul
+    li #[strong Categories:] !{numCategories}
+    li #[strong Items:] !{numItems}
